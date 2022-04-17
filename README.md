@@ -14,9 +14,7 @@ This is not a place to store crypto, just somthing to fiddle with, and develop f
 PLEASE test before integrating. No package installation required, just:
 
 ```
-
-npx serv
-
+npx serve
 ```
 
 drag and droping index.html into your browser will work too 
