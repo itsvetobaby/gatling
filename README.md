@@ -17,4 +17,4 @@ PLEASE test before integrating. No package installation required, just: <br>
 npx serve
 ```
 
-drag and droping index.html into your browser will work too 
+drag and dropping index.html into your browser will work too 
