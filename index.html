@@ -83,7 +83,38 @@
 				<div class="tab-pane tab-content active" id="wallet">
 					<div class="flex">
 						<div class="w-6/12">
-							<h2 class="text-9xl bold">Log In</h2>
+
+							<div class="pt-20" style="width: 100%;">
+								<div class="p-4 max-w-xl bg-white rounded-lg border border-gray-200 shadow-md sm:p-6 lg:p-8 dark:bg-gray-800 dark:border-gray-700" style="margin: auto;">
+								  <form class="space-y-6 pt-10" action="/login" method="POST">
+									  <div class="">
+										  <label for="username" class="block mb-2 text-2xl font-medium text-gray-900 dark:text-gray-300">Username</label>
+										  <input class="bg-gray-50 border border-gray-300 text-gray-900 text-3xl rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" placeholder="john_doe" id="email" name="username" required>
+									  </div>
+									  <div>
+										  <label for="password" class="block mb-2 text-2xl font-medium text-gray-900 dark:text-gray-300">Your password</label>
+										  <input type="password" id="password" name="password" placeholder="Password" placeholder="••••••••" class="bg-gray-50 border border-gray-300 text-gray-900 text-3xl rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" required>
+									  </div>
+									  <div class="flex items-start">
+										  <div class="flex items-start">
+											  <div class="flex items-center h-5">
+											  </div>
+											  <div class="ml-3 text-sm">
+											  </div>
+										  </div>
+										  <a href="#" class="ml-auto text-sm text-blue-700 hover:underline dark:text-blue-500">How does Login work?</a>
+									  </div>
+									  <button type="submit" class="w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-md px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Login</button>
+									  <button type="submit" class="w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-md px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Sign Up</button>
+
+									  <div class="text-sm font-medium text-gray-500 dark:text-gray-300">
+
+									  </div>
+								  </form>
+								</div>
+							  </div>
+
+							<!-- <h2 class="text-9xl bold">Log In</h2>
 							<div id="openLogin">
 								<form class="form-signin pt-10" role="form" action="javascript:;">
 
@@ -125,7 +156,7 @@
 									npx serve
 
 
-								</code>
+								</code> -->
 
 							</div>
 
@@ -285,7 +316,6 @@
 							</div>
 						</div>
 						<div class="w-6/12 p-10 ">
-							<img src="./images/dove.gif" class="rounded-md" />
 						</div>
 
 					</div>
