@@ -1,6 +1,6 @@
-https://itsvetobaby.github.io/gattling/
+https://itsvetobaby.github.io/gatling/
 
-Gun x bitcoin repo
+Auth meets Crypto Accounts - Gun x Coinbin
 
 
 VERY HACKY
